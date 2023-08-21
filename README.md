@@ -1,7 +1,10 @@
 # CS370
 - Briefly explain the work that you did on this project: What code were you given? What code did you create yourself?
 
+  I was given pseudocode for the deep-Q-learning implementation for the agent. The algorithm iterates over epochs, takes samples with prediction, stores episode data in an experience replay object, and trains in batches of 32 over 8 epochs. Wins and losses are totaled, including win rate and loss value. The overall goal is to minimize the difference between predicted and target Q-values, allowing the network to refine its weights.
+
 - Connect your learning from throughout this course to the larger field of computer science:
-  - What do computer scientists do and why does it matter?
-  - How do I approach a problem as a computer scientist?
-  - What are my ethical responsibilities to the end user and the organization?
+
+    A computer scientist solves problems. They design and analyze both hardware and software compenents of a solution. Although solutions may be developed in a perfect test environment, reality is far from perfect. This means that there is an integral human aspect to creating solutions that involve analyzing how the digital interacts with the physical. From unknown variables, to imperfect training data, to hidden algorithms, there are many areas of concern that computer scientist have to address. Computer scientists design tools that can both hurt and assist humanity. It's important to build responsisibly and consider ethical implications that may arise when integrating solutions to solve real-world problems. Things like transparency, accountability, and observability, are all design constraints that need to be maintained from the ground up. Doing so minimizes both unintended consequences, liability concerns. It's also important to always keep a pulse on the newest trends. Research is constantly being worked on; As a result, solutions are dramatically increasiing in performance, yet the effects of AI are still yet to be seen. There is also an inherent responsibility in being informed on the various aspects of development that may take place within a company. As an example, you may not work on AI, however you may work with those who do. There may be points in your carreer where insight into a team members work can lead to better collaboration and understanding. 
+  
+ 
